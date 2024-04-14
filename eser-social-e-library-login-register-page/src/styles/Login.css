@@ -1,0 +1,430 @@
+/*Login Page CSS*/
+.login-page-css {
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.login-container-css {
+    display: grid;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.login-form-container-css {
+    display: grid;
+
+    grid-template-rows: 125px 1fr 75px 125px;
+
+    background-color: rgb(240, 240, 240);
+}
+
+.login-create-account-css {
+    display: grid;
+}
+
+.login-title-css {
+    display: grid;
+
+    text-align: center;
+    align-items: center;
+
+    font-size: 26px;
+    font-weight: 700;
+
+    color: rgb(25, 25, 100);
+
+}
+
+
+.login-form-css {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input-bar-container-css>input {
+
+    width: 210px;
+
+    padding: 5px 10px;
+
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.login-forgot-password-css {
+    display: grid;
+
+    text-align: center;
+    align-items: center;
+}
+
+.login-forgot-password-link-css {
+    color: blue;
+
+    text-decoration: none;
+}
+
+
+.login-forgot-password-link-css:visited {
+    color: blue;
+}
+
+
+.login-forgot-password-link-css:hover {
+    color: red;
+}
+
+
+.login-forgot-password-link-css:active {
+    color: orange;
+    text-decoration: underline;
+}
+
+.login-button-container-css {
+    display: grid;
+
+    justify-content: center;
+    align-items: start;
+}
+
+.login-button-css {
+    color: rgb(100, 10, 255);
+    background-color: rgb(245, 245, 245);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    padding: 5px 10px;
+
+    border: 2px solid rgb(100, 10, 255);
+    border-radius: 20px;
+
+    transition: background-color 0.25s;
+
+    cursor: pointer;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+.login-button-css:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(100, 10, 255);
+}
+
+.login-button-css:active {
+    background-color: rgb(150, 100, 255);
+}
+
+.login-create-account-button-css {
+    color: rgb(100, 10, 255);
+    background-color: rgb(245, 245, 245);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    border: 3px solid rgb(100, 10, 255);
+
+
+    transition: background-color 0.35s;
+
+    cursor: pointer;
+
+}
+
+.login-create-account-button-css:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(100, 10, 255);
+}
+
+.login-create-account-button-css:active {
+    background-color: rgb(150, 100, 255);
+}
+
+@media screen and (min-width: 900px) {
+
+    .login-container-css {
+        grid-template-columns: 1fr 1fr;
+
+        width: 700px;
+        height: 500px;
+    }
+
+    .login-form-container-css {
+
+        border-right: 2px solid rgb(210, 210, 210);
+        border-radius: 10px 0px 0px 10px;
+
+    }
+
+    .login-create-account-css .login-create-account-button-css {
+        border-radius: 0px 10px 10px 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .login-container-css {
+        grid-template-rows: 100px 1fr;
+
+        width: 350px;
+        height: 600px;
+    }
+
+    .login-form-container-css {
+
+
+        border-top: 2px solid rgb(210, 210, 210);
+        border-radius: 0px 0px 10px 10px;
+
+    }
+
+    .login-create-account-css {
+        border-radius: 0px 10px 10px 0px;
+        grid-row-start: 1;
+
+    }
+
+    .login-create-account-button-css {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+/*Register Page CSS*/
+.register-page-css {
+    display: grid;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.register-container-css {
+    display: grid;
+
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.register-form-container-css {
+    display: grid;
+    grid-template-rows: 100px 1fr 75px 100px;
+
+    background-color: rgb(240, 240, 240);
+}
+
+.register-login-css {
+    display: grid;
+
+    grid-row-start: 1;
+}
+
+.register-title-css {
+    display: grid;
+
+    text-align: center;
+    align-items: center;
+
+    font-size: 26px;
+    font-weight: 700;
+
+    color: rgb(25, 25, 100);
+}
+
+
+.register-form-css {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.register-input-bar-container-css>input {
+
+    width: 210px;
+
+    padding: 5px 10px;
+
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.register-forgot-password-css {
+    display: grid;
+
+    text-align: center;
+    align-items: center;
+}
+
+.register-forgot-password-link-css {
+    color: blue;
+
+    text-decoration: none;
+}
+
+
+.register-forgot-password-link-css:visited {
+    color: blue;
+}
+
+
+.register-forgot-password-link-css:hover {
+    color: red;
+}
+
+
+.register-forgot-password-link-css:active {
+    color: orange;
+    text-decoration: underline;
+}
+
+.register-button-container-css {
+    display: grid;
+
+    justify-content: center;
+    align-items: start;
+}
+
+.register-button-css {
+    color: rgb(100, 10, 255);
+    background-color: rgb(245, 245, 245);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    padding: 5px 10px;
+
+    border: 2px solid rgb(100, 10, 255);
+    border-radius: 20px;
+
+    transition: background-color 0.25s;
+
+    cursor: pointer;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+.register-button-css:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(100, 10, 255);
+}
+
+.register-button-css:active {
+    background-color: rgb(150, 100, 255);
+}
+
+.register-login-button-css {
+    color: rgb(100, 10, 255);
+    background-color: rgb(245, 245, 245);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    border: 3px solid rgb(100, 10, 255);
+
+
+    transition: background-color 0.35s;
+
+    cursor: pointer;
+
+}
+
+.register-login-button-css:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(100, 10, 255);
+}
+
+.register-login-button-css:active {
+    background-color: rgb(150, 100, 255);
+}
+
+@media screen and (min-width: 900px) {
+
+    .register-container-css {
+        grid-template-columns: 1fr 1fr;
+
+        width: 700px;
+        height: 500px;
+    }
+
+    .register-form-container-css {
+
+        border-right: 2px solid rgb(210, 210, 210);
+        border-radius: 0px 10px 10px 0px;
+
+    }
+
+    .register-login-css .register-login-button-css {
+
+        border-radius: 10px 0px 0px 10px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .register-container-css {
+        grid-template-rows: 100px 1fr;
+
+        width: 350px;
+        height: 600px;
+    }
+
+    .register-form-container-css {
+        grid-template-rows: 125px 1fr 75px 125px;
+
+        background-color: rgb(240, 240, 240);
+
+        border-top: 2px solid rgb(210, 210, 210);
+        border-radius: 0px 0px 10px 10px;
+
+    }
+
+    .register-login-css {
+        border-radius: 0px 10px 10px 0px;
+
+    }
+
+    .register-login-button-css {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+
+}
